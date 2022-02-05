@@ -10,3 +10,5 @@ Neste projeto, o desafio foi criar uma simples lista de tarefas.
 
 ### Resultado do Desafio:
 
+![](https://github.com/Shirleyomb/introducao-ao-javascript/blob/main/todolist2/img/todolist2.jpg)
+
