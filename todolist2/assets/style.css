@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  margin:  5% 0 2%;
+  color: #f3f3f3;
+  font-family: "Poppins", sans-serif;
+  font-size: 34px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.04em;
+  background: linear-gradient(
+    94.98deg,
+    #6c63ff 1.27%,
+    rgba(177, 46, 179, 0.45) 85.92%,
+    rgba(184, 75, 200, 0.88) 110.01%,
+    rgba(171, 17, 159, 0.887615) 141.39%
+  );
+  padding: 0.5% 0.5%;
+  border-radius: 0.2rem;
+}
+
+body {
+  background-image: url(/todolist2/img/Background.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  line-height: 30px;
+  border: 1px solid rgba(177, 46, 179, 0.45);
+  border-radius: 5px;
+  background-color: rgb(227, 248, 255);
+  color: rgba(184, 75, 200, 0.88);
+  text-align: center;
+  padding: 5px;
+}
+
+input[type="text"] {
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid white;
+
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #f3f3f3;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: grey;
+}
+
